@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.danielrosero.turnometro.WelcomeActivity"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Turnometro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textSize="40sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:text="Start your own event."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_own_event"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/start"
+            android:background="#084489" />
+
+
+        <TextView
+            android:text="OR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/or"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/et_pin"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="ENTER A EVENT PIN"
+            android:textAlignment="center"
+            android:background="@drawable/et_pin"
+            android:textColor="@color/colorETPin"
+            android:textSize="30sp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:inputType="phone"
+            android:drawableLeft="@drawable/lapiz"
+            android:drawablePadding="20dp" />
+
+        <Button
+            android:text="ENTER"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b_enter"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

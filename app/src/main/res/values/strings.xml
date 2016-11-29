@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Turnometro</string>
+    <integer name="duracion">15</integer>
+    <string name="title_activity_moderator">ModeratorActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
